@@ -152,4 +152,9 @@ body {
     align-self: center;
     margin-right: 97px;
   }
+
+  .icon {
+    margin-left: 230px;
+    margin-top: 18px;
+  }
 }
