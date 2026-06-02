@@ -3,64 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,
+      300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <title>training</title>
-    <style>
-      * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-      }
-
-      .box {
-        display: grid;
-        /* justify-self: center; */
-        justify-content: center;
-        grid-template-columns: repeat(3, 200px);
-        grid-template-rows: repeat(3, 250px);
-      }
-
-      .container {
-        width: 50px;
-        height: 50px;
-        background-color: red;
-      }
-
-      .container1 {
-        justify-self: end;
-        align-self: center;
-        grid-column: 2;
-        grid-row: 2;
-        margin-bottom: 62px;
-      }
-
-      .container2 {
-        align-self: center;
-        grid-column: 2;
-        grid-row: 2;
-        margin-bottom: 62px;
-      }
-
-      .container3 {
-        justify-self: center;
-        grid-column: 2;
-        grid-row: 2;
-        align-self: center;
-      }
-
-      .container4 {
-        justify-self: center;
-        grid-column: 2;
-        grid-row: 2;
-        margin-top: 33px;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="box">
-      <div class="container container1">1</div>
-      <div class="container container2">2</div>
-      <div class="container container3">3</div>
-      <div class="container container4">4</div>
-    </div>
+    <main class="main-container">
+      <header class="header">
+        <h1 class="heading-primary">
+          <span class="highlight-text">Reliable, efficient delivery</span>
+          Powered by Technology
+        </h1>
+
+        <p class="text-primary">
+          Our Artificial Intelligence powered tools use millions of project data
+          points to ensure that your project is successful
+        </p>
+      </header>
+
+      <div class="container container1">
+        <h2 class="heading-secondary">Superviser</h2>
+        <p class="container-text">
+          Monitors activity to identify project roadblocks
+        </p>
+        <img
+          class="icon supervisor-icon"
+          src="images/icon-supervisor.png"
+          alt="supervisor icon"
+        />
+      </div>
+
+      <div class="container container2">
+        <h2 class="heading-secondary">Team Builder</h2>
+        <p class="container-text">
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img
+          class="icon team-builder-icon"
+          src="images/icon-team-builder.png"
+          alt="team builder icon"
+        />
+      </div>
+
+      <div class="container container3">
+        <h2 class="heading-secondary">Karma</h2>
+        <p class="container-text">
+          Regularly evaluates our talent to ensure quality
+        </p>
+        <img
+          class="icon karma-icon"
+          src="images/icon-karma.png"
+          alt="karma icon"
+        />
+      </div>
+
+      <div class="container container4">
+        <h2 class="heading-secondary">Calculator</h2>
+        <p class="container-text">
+          Uses data from past projects to provide better delivery estimates
+        </p>
+        <img
+          class="icon calculator-icon"
+          src="images/icon-calculator.png"
+          alt="calculator icon"
+        />
+      </div>
+    </main>
   </body>
 </html>
