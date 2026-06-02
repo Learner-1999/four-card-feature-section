@@ -101,7 +101,7 @@ body {
   margin-left: 190px;
 }
 
-@media (min-width: 1460px) {
+@media (min-width: 1200px) {
   .main-container {
     grid-template-columns: 1238px;
     grid-template-rows: 784px;
