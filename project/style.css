@@ -34,22 +34,20 @@ body {
 }
 
 /* MOBILE APPROACH */
-
 .main-container {
-  margin: 50px;
+  margin-top: 3.3rem;
   display: grid;
-  /* justify-items: center; */
-  grid-template-rows: 149px 190px 190px 190px 190px;
-  grid-template-columns: 280px;
+  grid-template-rows: 9.9rem 12.7rem 12.7rem 12.7rem 12.7rem;
+  grid-template-columns: 18.6rem;
   text-align: center;
-  row-gap: 20px;
+  row-gap: 1.3rem;
 }
 
 .heading-primary {
-  font-size: 22px;
-  line-height: 29px;
+  font-size: 1.5rem;
+  line-height: 1.9rem;
   color: hsl(234, 12%, 34%);
-  margin-bottom: 14px;
+  margin-bottom: 0.9rem;
 }
 
 .highlight-text {
@@ -63,49 +61,48 @@ body {
 }
 
 .container {
-  /* border: 1px solid black; */
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 0.3rem;
+  padding: 1.3rem;
   text-align: left;
-  box-shadow: 0px 7px 14px -6px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0.5rem 0.9rem -0.4rem rgba(0, 0, 0, 0.5);
 }
 
 .container1 {
-  border-top: 5px solid hsl(180, 62%, 55%);
+  border-top: 0.4rem solid hsl(180, 62%, 55%);
 }
 
 .container2 {
-  border-top: 5px solid hsl(0, 78%, 62%);
+  border-top: 0.4rem solid hsl(0, 78%, 62%);
 }
 
 .container3 {
-  border-top: 5px solid hsl(34, 97%, 64%);
+  border-top: 0.4rem solid hsl(34, 97%, 64%);
 }
 
 .container4 {
-  border-top: 5px solid hsl(212, 86%, 64%);
+  border-top: 0.4rem solid hsl(212, 86%, 64%);
 }
 
 .heading-secondary {
   color: hsl(234, 12%, 34%);
-  margin-bottom: 8px;
+  margin-bottom: 0.5rem;
 }
 
 .container-text {
   color: hsl(212, 6%, 44%);
-  margin-bottom: 16px;
+  margin-bottom: 1rem;
 }
 
 .icon {
-  width: 50px;
-  margin-left: 190px;
+  width: 3.3rem;
+  margin-left: 12.7rem;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 80rem) {
   .main-container {
-    grid-template-columns: 1042px;
-    grid-template-rows: 182px 424px;
-    margin-top: 50px;
+    grid-template-columns: 69rem;
+    grid-template-rows: 10.2rem 28rem;
+    margin-top: 3rem;
     row-gap: 0;
   }
 
@@ -115,20 +112,20 @@ body {
   }
 
   .heading-primary {
-    font-size: 33px;
-    line-height: 36px;
+    font-size: 2rem;
+    line-height: 2.3rem;
   }
 
   .text-primary {
-    width: 441px;
+    width: 29rem;
     justify-self: center;
   }
 
   .container {
     grid-column: 1;
     grid-row: 2;
-    width: 327px;
-    height: 200px;
+    width: 21rem;
+    height: 13rem;
   }
 
   .container3 {
@@ -150,7 +147,7 @@ body {
   }
 
   .icon {
-    margin-left: 230px;
-    margin-top: 18px;
+    margin-left: 15rem;
+    margin-top: 1rem;
   }
 }
