@@ -103,7 +103,7 @@ body {
   .main-container {
     grid-template-columns: 69rem;
     grid-template-rows: 10.2rem 28rem;
-    margin-top: 6rem;
+    margin-top: 3rem;
     row-gap: 0;
   }
 
