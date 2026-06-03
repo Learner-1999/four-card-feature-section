@@ -101,11 +101,12 @@ body {
   margin-left: 190px;
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 500px) {
   .main-container {
-    grid-template-columns: 1238px;
-    grid-template-rows: 784px;
+    grid-template-columns: 1042px;
+    grid-template-rows: 182px 424px;
     margin-top: 50px;
+    row-gap: 0;
   }
 
   .header {
@@ -125,31 +126,27 @@ body {
 
   .container {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 2;
     width: 327px;
     height: 200px;
-  }
-
-  .container1 {
-    align-self: center;
-    margin-left: 97px;
-  }
-
-  .container2 {
-    justify-self: center;
-    margin-top: 185px;
   }
 
   .container3 {
     align-self: end;
     justify-self: center;
-    margin-bottom: 169px;
+  }
+
+  .container1 {
+    align-self: center;
   }
 
   .container4 {
     justify-self: end;
     align-self: center;
-    margin-right: 97px;
+  }
+
+  .container2 {
+    justify-self: center;
   }
 
   .icon {
